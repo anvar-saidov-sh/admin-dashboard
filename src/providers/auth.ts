@@ -1,6 +1,6 @@
 import { AuthProvider } from "@refinedev/core";
 
-import { User } from "@/graphql/schema.types";
+// import { User } from "@/graphql/schema.types";
 
 import { API_URL, dataProvider } from "./data";
 
@@ -100,7 +100,7 @@ export const authProvider: AuthProvider = {
     const accessToken = localStorage.getItem("access_token");
 
     try {
-      const { data } = await dataProvider.custom<{ me: User }>({
+      const { data } = await dataProvider.custom({
         url: API_URL,
         method: "post",
         headers: accessToken
