@@ -39,10 +39,9 @@ Refine's hooks and components simplifies the development process and eliminates 
 
 To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
 
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/data/packages/nestjs-query/)
 - **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
 - **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
+- **REST Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
 
 ## License
 
